@@ -1,0 +1,74 @@
+body {
+    margin: 0%;
+}
+
+.content-card {
+    background: blue;
+    margin: 50px;
+    padding: 20px;
+}
+
+.card-button {
+    width: auto;
+    height: 50px;
+    text-transform: none;
+    font-size: 20px;
+    border-radius: 4px;
+    background: white;
+    color: #1ba94c;
+    font-family: monospace;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 10px;
+    border: 1px solid #1ba94c;
+    display: block;
+    margin: 28px auto 0 auto;
+    /* background: linear-gradient(opacity(0), opacity(1)); */
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    background: #f0f0f0;
+}
+
+.container-secondary {
+    margin: 0 6% 10% 6%;
+    height: auto;
+}
+
+.card-container {
+    width: 100%;
+    font-family: monospace;
+    font-size: 20px;
+    padding: 5vh 0;
+}
+
+.card-container-item {
+    padding: 40px;
+    min-width: 40%;
+    box-shadow: 5px 5px 15px 3px rgba(0, 0, 0, 0.2);
+    background: white;
+    min-height: 20vh;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+.card-container-item:hover {
+    box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    border: 0;
+    font-size: 14px;
+    color: lightgrey;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.hidden-content {
+    max-height: 40px;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    /* opacity: 0.5; */
+}
